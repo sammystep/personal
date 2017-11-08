@@ -1,0 +1,35 @@
+body{
+	background-image: url(glial_background.png);
+	background-repeat: no-repeat;
+	background-position: 50%; 
+	background-size: contain;
+}
+
+aside {
+	position: relative;
+	left: -20%;
+	top: 26%;
+	text-align: center;
+	text-shadow: 0px -1px 0px #666,
+}
+
+.menu{
+	height: 500px;
+	position: fixed;
+	display: inline-block;
+}
+
+aside nav ul{
+	padding: 0px;
+	margin: 0px;
+	float: center;
+	list-style: none;
+	width: 200px;
+	background-color: white;
+
+}
+
+aside nav li{
+	font-family: 'Muli', sans-serif;
+	font-size: 30px;
+}
